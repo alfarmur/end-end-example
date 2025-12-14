@@ -12,9 +12,9 @@ spec:
       labels:
         app: aws-k8s-app
     spec:
-        containers:
-          - name: aws-k8s-app
-            image: yamar2k/example:latest
-            imagePullPolicy: Always
-        ports:
-        - containerPort: 3000
+      containers:
+        - name: aws-k8s-app
+          image: yamar2k/example:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
