@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: aws-k8s-app
-          image: yamar2k/example:latest
+          image: 518286664249.dkr.ecr.us-east-1.amazonaws.com/dockerfile:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
